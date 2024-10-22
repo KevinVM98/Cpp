@@ -51,6 +51,32 @@ int main(){
 
 
 
+// confirmar si un número es par o impar
+
+#include <iostream>
+
+int main() {
+    int numero;
+
+    // Solicitar al usuario que introduzca un número
+    std::cout << "Introduce un número: ";
+    std::cin >> numero;
+
+    // Comprobar si el número es par o impar, se hace verificando que el resto se 0
+    if (numero % 2 == 0) 
+    {
+        
+        std::cout << "El número " << numero << " es par." << std::endl;
+        
+    } 
+    
+    else 
+    {
+        std::cout << "El número " << numero << " es impar." << std::endl;
+    }
+
+    return 0;
+}
 
 
 
