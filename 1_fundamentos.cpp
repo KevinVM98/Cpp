@@ -21,3 +21,47 @@ int main() {
 
     return 0;
 }
+
+
+
+//Implementa un programa que convierta grados Celsius a Fahrenheit.
+
+#include <iostream>
+
+int main(){
+    
+    float Celsius, Fahrenheit;
+    
+    //solicitamos el valor en Celsius
+    
+    
+    std::cout << "Introduce el valor en Celsius: ";
+    
+    std::cin >> Celsius;
+    
+    
+    Fahrenheit = (9.0 / 5.0)*(Celsius)+32; //la fracción debe de ponerse así
+    
+    std::cout << "La temperatura en Fahrenheit es de: " << Fahrenheit << std::endl;
+    
+    return 0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
